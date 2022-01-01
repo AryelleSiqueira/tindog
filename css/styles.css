@@ -187,7 +187,13 @@ p {
     }
 }
 
-@media (max-width: 991px) {     /* coluna da grid é jogada para baixo */
+@media (max-width: 991px) {     /* coluna da grid é jogada para baixo e nav "collapsa" */
+    .nav-link {
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-align: left;
+    }
+
     .title-img {
         width: 50%;
         position: static;
