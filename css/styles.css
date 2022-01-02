@@ -1,30 +1,33 @@
 body {
     font-family: 'Montserrat';
+    text-align: center;
 }
 
-h1 {
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-h2 {
-    font-size: 3rem;
+h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    line-height: 1.5;
 }
 
 p {
     color: #8f8f8f;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: white;
-}
+/* Containers */
 
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
+}
+
+/* Headings */
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 /* Navigation Bar */
@@ -46,6 +49,18 @@ p {
 .nav-link {
     font-size: 1.2rem;
     font-weight: 100;
+}
+
+/* Title Section */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding-top: 3%;
 }
 
 /* Download buttons */
@@ -71,13 +86,10 @@ p {
 
 #features {
     background-color: white;
-    padding: 7% 15%;
     position: relative;
-    /* z-index: 1; */
 }
 
 .feature-box {
-    text-align: center; 
     padding: 4.5%;
 }
 
@@ -90,25 +102,20 @@ p {
     color: #ff4c68;
 }
 
-.feature-heading {
+.feature-title {
     font-size: 1.5rem;
-    font-weight: bold;
 }
-
-/* .feature-paragraph {
-    color: #8f8f8f;
-} */
 
 /* Testimonial and Press Sections */
 
 #testimonials {
     background-color: #ef8172;
     color: white;
-    text-align: center;
 }
 
-.carousel-item {
-    padding: 7% 15%;
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -119,7 +126,6 @@ p {
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -132,7 +138,6 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-col {
@@ -141,7 +146,11 @@ p {
 
 .card-header {
     font-size: 1.5rem;
-    font-weight: bold;
+}
+
+.card-title {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 /* CTA section */
@@ -149,22 +158,12 @@ p {
 #cta {
     background-color: #ff4c68;
     color: white;
-    text-align: center;
-    padding: 7% 15%;
-}
-
-.cta-heading {
-    font-size: 3.5rem;
-    font-weight: 900;
-    line-height: 1.5;
 }
 
 /* Footer */
 
 #footer {
     background-color: white;
-    text-align: center;
-    padding: 7% 15%;
 }
 
 .social-icons {
@@ -176,7 +175,7 @@ p {
     padding: 0 1%;
 }
 
-/* Tablets e celulares */
+/* Tablets e mobiles */
 
 @media (max-width: 1035px) {
     #title {
