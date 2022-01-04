@@ -174,9 +174,10 @@ p {
 /* Tablets e mobiles */
 
 @media (max-width: 1035px) {
-    #title {
+    #title .container-fluid {
         text-align: center;
     }
+    
     .title-img {
         transform: rotate(0);
     }
